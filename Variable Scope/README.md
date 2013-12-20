@@ -6,10 +6,10 @@ What does this print?
             whoIam: function() {
                 var name = 'James';
 
-                console.log( this.name );       // a)
+                console.log( this.name );
 
                 setTimeout( function () {
-                    console.log( this.name );   // b)
+                    console.log( this.name );
                 }, 100 );
             }
         };
