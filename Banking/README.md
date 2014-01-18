@@ -12,7 +12,7 @@ What does this print?
         return paid / stockOptionsCost;
     }
 
-    console.log( 'You purchased ' + calculateAmountOfStockOptions() + 'Stock Options.' )
+    console.log( 'You purchased ' + calculateAmountOfStockOptions() + ' Stock Options.' )
     console.log( 'Take your change [' + calculateChange()  + '] and thanks for buying with Bank Ruptcy' );
 
 Why?
